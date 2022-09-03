@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
-=======
-import React from "react";
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import { Container } from "react-bootstrap";
@@ -10,7 +6,6 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import API from "../../services/api";
 import { toast } from "react-toastify";
@@ -70,10 +65,6 @@ export const Login = () => {
     }
   }, []);
 
-=======
-
-export const Login = () => {
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
   return (
     <>
       <Row className="justify-content-center">
@@ -82,7 +73,6 @@ export const Login = () => {
             <h1 id="titulo">Login</h1>
             <Form>
               <Form.Group className="mb-3">
-<<<<<<< HEAD
                 <Form.Label>Login</Form.Label>
                 <Form.Control
                   type="text"
@@ -115,28 +105,11 @@ export const Login = () => {
                   label="Lembrar minha senha"
                   onClick={gravarSenha}
                 />
-=======
-                <Form.Label>E-mail</Form.Label>
-                <Form.Control type="email" placeholder="Digite seu e-mail" />
-              </Form.Group>
-
-              <Form.Group className="mb-1">
-                <Form.Label>Senha</Form.Label>
-                <Form.Control type="password" placeholder="Digite sua senha" />
-              </Form.Group>
-
-              <Form.Group className="mb-3">
-                <Form.Check type="checkbox" label="Lembrar minha senha" />
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
               </Form.Group>
             </Form>
           </Container>
           <Container style={{ textAlign: "center" }}>
-<<<<<<< HEAD
             <Button variant="primary" type="submit" onClick={() => logar()}>
-=======
-            <Button variant="primary" type="submit">
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
               Entrar
             </Button>
             <br />

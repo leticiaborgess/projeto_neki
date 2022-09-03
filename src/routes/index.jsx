@@ -5,11 +5,9 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-<<<<<<< HEAD
+
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-=======
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
 import { Home } from "../pages/Home";
 import { Login } from "../pages/Login";
 import { Cadastro } from "./../pages/Cadastro";
@@ -25,7 +23,7 @@ export function Rotas() {
         <Route path="/Cadastro" element={<Cadastro />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-<<<<<<< HEAD
+
       <ToastContainer
           position="top-right"
           autoClose={5000}
@@ -37,8 +35,6 @@ export function Rotas() {
           draggable
           pauseOnHover
       />
-=======
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
     </Router>
   );
 }

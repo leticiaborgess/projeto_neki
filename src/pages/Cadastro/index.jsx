@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 import { React, useState } from "react";
-=======
-import React from "react";
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
-<<<<<<< HEAD
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import API from "../../services/api";
@@ -54,29 +49,6 @@ export const Cadastro = () => {
         toast.error("Não foi possível realizar o cadastro");
       });
   }
-=======
-// import { useState } from "react";
-// import { useForm } from "react-hook-form";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.css";
-
-export const Cadastro = () => {
-
-    // const [data, setData] = useState({
-    //   email: "",
-    //   senha: ""
-    // })
-    // const { register, setValue, setFocus, handleSubmit } = useForm();
-
-    // function confirmaSenha() {
-    //     if (senha === senha2) {
-    //       enviar();
-    //     } else {
-    //       console.log("Senhas nao coincidem");
-    //     }
-    //   }
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
-    
   return (
     <>
       <Row className="justify-content-center">
@@ -86,18 +58,13 @@ export const Cadastro = () => {
             <Form>
               <Form.Group className="mb-3">
                 <Form.Label>E-mail</Form.Label>
-<<<<<<< HEAD
                 <Form.Control 
                  onChange={(e) => setLogin(e.target.value)}
                 type="email" placeholder="Digite seu e-mail" />
-=======
-                <Form.Control type="email" placeholder="Digite seu e-mail" />
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
               </Form.Group>
 
               <Form.Group className="mb-3">
                 <Form.Label>Senha</Form.Label>
-<<<<<<< HEAD
                 <Form.Control type={checked ? "text" : "password"} 
                  onChange={(e) => setSenha(e.target.value)}
                 placeholder="Digite sua senha" 
@@ -125,24 +92,6 @@ export const Cadastro = () => {
                 Salvar
               </Button>
               <a href="/Login">Fazer login</a>
-=======
-                <Form.Control type="password" placeholder="Digite sua senha" 
-                />
-              </Form.Group>
-
-              <Form.Group className="mb-3">
-                <Form.Label> Confirmar Senha</Form.Label>
-                <Form.Control type="password" placeholder="Digite sua senha novamente" 
-                />
-              </Form.Group>
-
-            </Form>
-          </Container>
-          <Container style={{textAlign: "center"}}>
-              <Button variant="primary" type="submit">
-                Salvar
-              </Button>
->>>>>>> 52cffad2d4cb151ef66f885b7d34fcc1e7f0600e
               </Container>
         </Col>
       </Row>
