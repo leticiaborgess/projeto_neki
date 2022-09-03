@@ -1,0 +1,10 @@
+#titulo {
+  margin-top: 20px;
+  text-align: center;
+}
+ .cadastro {
+    text-decoration: none;
+ }
+.cadastro:hover {
+    text-decoration: underline;
+}
